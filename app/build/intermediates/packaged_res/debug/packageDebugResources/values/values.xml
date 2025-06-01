@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_app">#7F9438</color>
+    <color name="black">#FF000000</color>
+    <color name="color_button">#99FF00</color>
+    <color name="color_input">#C7BBBB</color>
+    <color name="cyan_green">#00d286</color>
+    <color name="dark_cyan_green">#60942E</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FF0000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <string name="app_name">Controle_Rural_Project</string>
+    <string name="arrendamentos_button">Propriedades</string>
+    <string name="btn_cad_frotas">Cadastrar Nova Frota</string>
+    <string name="button_cadastrar">Cadastrar</string>
+    <string name="button_entrar">Entrar</string>
+    <string name="button_esqueceuSenha">Esqueci minha senha</string>
+    <string name="button_jaPossuiCadastro">Já possui cadastro?</string>
+    <string name="button_naoPossuiCadastro">Não possui cadastro?</string>
+    <string name="cad_frotas">Cadastrar Frotas</string>
+    <string name="cad_funcionarios">Cadastro de Funcionários</string>
+    <string name="cadastrar_frotas">Cadastrar Frotas</string>
+    <string name="cadastrar_funcionarios">Cadastrar Funcionários</string>
+    <string name="despesas_button">Despesas</string>
+    <string name="frotas_button">Frotas</string>
+    <string name="funcionarios_button">Funcionários</string>
+    <string name="gerenciamento">Gerenciar dados rurais</string>
+    <string name="gerenciar_frotas">Gerenciar Frotas</string>
+    <string name="gerenciar_funcionarios">Gerenciar Funcionários</string>
+    <string name="hint_ano">Ano da frota:</string>
+    <string name="hint_cargo">Digite o cargo</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_marca">Marca da frota:</string>
+    <string name="hint_modelo">Modelo da frota:</string>
+    <string name="hint_nome_frotas">Nome da Frota:</string>
+    <string name="hint_nome_funcionarios">Digite o nome do funcionário</string>
+    <string name="hint_numero">Escolha o número:</string>
+    <string name="hint_password">Mínimo 6 caracteres</string>
+    <string name="hint_status">Digite o status</string>
+    <string name="hint_usuario_name">Informe seu nome de usuário</string>
+    <string name="label_ano">Ano:</string>
+    <string name="label_cargo">Cargo</string>
+    <string name="label_marca">Marca:</string>
+    <string name="label_modelo">Modelo:</string>
+    <string name="label_nome_frotas">Nome:</string>
+    <string name="label_nome_funcionarios">Nome do Funcionário</string>
+    <string name="label_numero">Número:</string>
+    <string name="label_status">Status</string>
+    <string name="log_out">Sair</string>
+    <string name="title_cadastrar">Cadastrar-se</string>
+    <string name="title_email">Seu melhor email:</string>
+    <string name="title_email_user">Email de Usuário:</string>
+    <string name="title_login">Login</string>
+    <string name="title_menu">Controle Rural</string>
+    <string name="title_password">Senha:</string>
+    <string name="title_user">Nome de Usuário:</string>
+    <string name="usuarios_button">Usuários</string>
+    <string name="voltar">Voltar</string>
+    <style name="Base.Theme.Controle_Rural_Project" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/black</item> // mudar para a cor do login
+    </style>
+    <style name="Theme.Controle_Rural_Project" parent="Base.Theme.Controle_Rural_Project"/>
+</resources>

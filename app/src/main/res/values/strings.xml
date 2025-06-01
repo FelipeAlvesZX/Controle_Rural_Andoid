@@ -1,0 +1,76 @@
+<resources>
+
+    // main/login
+    <string name="app_name">Controle_Rural_Project</string>
+    <string name="title_login">Login</string>
+    <string name="title_user">Nome de Usuário:</string>
+    <string name="title_email_user">Email de Usuário:</string>
+    <string name="title_password">Senha:</string>
+    <string name="button_entrar">Entrar</string>
+    <string name="button_naoPossuiCadastro">Não possui cadastro?</string>
+    <string name="button_esqueceuSenha">Esqueci minha senha</string>
+    <string name="title_email">Seu melhor email:</string>
+
+
+    // cadastrar
+    <string name="title_cadastrar">Cadastrar-se</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_usuario_name">Informe seu nome de usuário</string>
+    <string name="hint_password">Mínimo 6 caracteres</string>
+    <string name="button_cadastrar">Cadastrar</string>
+    <string name="button_jaPossuiCadastro">Já possui cadastro?</string>
+
+
+    // menu inicial
+    <string name="title_menu">Controle Rural</string>
+    <string name="gerenciamento">Gerenciar dados rurais</string>
+    <string name="usuarios_button">Usuários</string>
+    <string name="frotas_button">Frotas</string>
+    <string name="funcionarios_button">Funcionários</string>
+    <string name="arrendamentos_button">Propriedades</string>
+    <string name="despesas_button">Despesas</string>
+    <string name="log_out">Sair</string>
+    <string name="voltar">Voltar</string>
+
+
+    // frotas
+    //gerenciar frotas
+    <string name="gerenciar_frotas">Gerenciar Frotas</string>
+    // click frotas
+    <string name="cadastrar_frotas">Cadastrar Frotas</string>
+
+    // funcionarios
+    //gerenciar funcionarios
+    <string name="gerenciar_funcionarios">Gerenciar Funcionários</string>
+    // click funcionarios
+    <string name="cadastrar_funcionarios">Cadastrar Funcionários</string>
+
+    // cad_frotas
+    <string name="cad_frotas">Cadastrar Frotas</string>
+    <string name="btn_cad_frotas">Cadastrar Nova Frota</string>
+
+    <string name="hint_nome_frotas">Nome da Frota:</string>
+    <string name="hint_numero">Escolha o número:</string>
+    <string name="hint_marca">Marca da frota:</string>
+    <string name="hint_modelo">Modelo da frota:</string>
+    <string name="hint_ano">Ano da frota:</string>
+
+    <string name="label_nome_frotas">Nome:</string>
+    <string name="label_numero">Número:</string>
+    <string name="label_marca">Marca:</string>
+    <string name="label_modelo">Modelo:</string>
+    <string name="label_ano">Ano:</string>
+
+
+    <string name="cad_funcionarios">Cadastro de Funcionários</string>
+    <string name="label_nome_funcionarios">Nome do Funcionário</string>
+    <string name="hint_nome_funcionarios">Digite o nome do funcionário</string>
+    <string name="label_cargo">Cargo</string>
+    <string name="hint_cargo">Digite o cargo</string>
+    <string name="label_status">Status</string>
+    <string name="hint_status">Digite o status</string>
+
+
+
+
+</resources>

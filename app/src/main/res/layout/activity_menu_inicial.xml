@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_app"
+    android:orientation="vertical"
+
+
+    >
+
+    <LinearLayout
+        android:id="@+id/controle_rural"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_cyan_green"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/container_menu"
+            android:fontFamily="@font/asap_bold"
+            android:text="@string/title_menu"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gerenciarDadosTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/controle_rural"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/gerenciamento"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/dark_cyan_green"
+
+        android:text="@string/usuarios_button"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:icon="@drawable/user_icon"
+        app:iconGravity="top"
+        app:iconPadding="0dp"
+        app:iconSize="62dp"
+        app:iconTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gerenciarDadosTitle" />
+
+    <Button
+        android:id="@+id/btn_frotas"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/dark_cyan_green"
+        android:text="@string/frotas_button"
+        android:textColor="#000000"
+
+        android:textSize="18sp"
+        app:icon="@drawable/tratoricone"
+        app:iconGravity="top"
+        app:iconPadding="0dp"
+        app:iconSize="62dp"
+        app:iconTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gerenciarDadosTitle" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/dark_cyan_green"
+        android:text="@string/arrendamentos_button"
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        android:textSize="18sp"
+        app:icon="@drawable/icon_fazenda"
+        app:iconGravity="top"
+        app:iconPadding="0dp"
+        app:iconSize="62dp"
+        app:iconTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/btn_funcionarios"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/dark_cyan_green"
+        android:text="@string/funcionarios_button"
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        android:textSize="18sp"
+        app:icon="@drawable/icon_funcionarios"
+        app:iconGravity="top"
+        app:iconPadding="0dp"
+        app:iconSize="62dp"
+        app:iconTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_frotas" />
+
+    <Button
+        android:id="@+id/despesas"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/dark_cyan_green"
+        android:text="@string/despesas_button"
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        android:textSize="18sp"
+        app:icon="@drawable/icon_despesas"
+        app:iconGravity="top"
+        app:iconPadding="0dp"
+        app:iconSize="62dp"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/container_login"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/despesas"
+
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <Button
+            android:id="@+id/MenuInicial"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:backgroundTint="@color/dark_cyan_green"
+            android:text="@string/log_out"
+
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:icon="@drawable/icon_log_out"
+            app:iconGravity="top"
+            app:iconPadding="0dp"
+            app:iconSize="54dp"
+            app:iconTint="@color/white" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

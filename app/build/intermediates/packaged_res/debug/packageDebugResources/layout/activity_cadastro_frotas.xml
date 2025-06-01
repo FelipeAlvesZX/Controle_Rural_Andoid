@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastro_frotas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/container_login"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/color_button"
+            android:fontFamily="@font/asap_bold"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/asap_bold"
+            android:text="@string/cad_frotas"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3sp"
+                android:fontFamily="@font/asap_bold"
+                android:text="@string/label_nome_frotas"
+                android:textColor="@color/white"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/inputNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/container_input"
+                android:drawablePadding="10sp"
+                android:fontFamily="@font/asap_bold"
+                android:hint="@string/hint_nome_frotas"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_input"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:fontFamily="@font/asap_bold"
+                android:text="@string/label_numero"
+                android:textColor="@color/white"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/inputNumeroFrota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/container_input"
+                android:drawablePadding="10sp"
+                android:fontFamily="@font/asap_bold"
+                android:hint="@string/hint_numero"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_input"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:fontFamily="@font/asap_bold"
+                android:text="@string/label_marca"
+                android:textColor="@color/white"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/inputMarcaFrota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/container_input"
+                android:drawablePadding="10sp"
+                android:fontFamily="@font/asap_bold"
+                android:hint="@string/hint_marca"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_input"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:fontFamily="@font/asap_bold"
+                android:text="@string/label_modelo"
+                android:textColor="@color/white"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/inputModeloFrota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/container_input"
+                android:drawablePadding="10sp"
+                android:fontFamily="@font/asap_bold"
+                android:hint="@string/hint_modelo"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_input"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:fontFamily="@font/asap_bold"
+                android:text="@string/label_ano"
+                android:textColor="@color/white"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/inputAnoFrota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/container_input"
+                android:drawablePadding="10sp"
+                android:fontFamily="@font/asap_bold"
+                android:hint="@string/hint_ano"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_input"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_cadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/color_button"
+            android:fontFamily="@font/asap_bold"
+            android:text="Cadastrar"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
